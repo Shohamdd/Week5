@@ -1,0 +1,33 @@
+#panel{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+     }
+
+input{
+  font-size:2em;
+  margin: 7px;
+      }
+
+#main{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:10px;
+
+}
+
+div{
+    text-align:center;
+}
+
+button{
+    display:block;
+    margin: 7px auto;
+    font-size:2em;
+
+}
+img{
+    display:block;
+    height: 450px;
+    }
