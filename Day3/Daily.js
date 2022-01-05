@@ -92,7 +92,7 @@ let toMorse = (morseJS) => {
       resolve(wordArr.map((v) => morseJS[v]));
     } else {
 
-      reject("The word/s are not exist, sorry");
+      reject("This word/s are not exist, sorry");
     }
   });
 };
