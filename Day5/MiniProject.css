@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    background-image: url("https://i.giphy.com/media/TxVVB6PfWMjE4/200.webp");
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.wrapper{
+  margin: auto;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+
+}
+  .info-container{
+    border: 3px solid yellow;
+  border-radius: 15px;
+  width: 600px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: -25px;
+}
+
+
+
+#logo{
+background: url("https://i.dlpng.com/static/png/253278_thumb.png") center center no-repeat;
+height: 300px;
+display: flex;
+justify-content: center;
+
+  }
+
+#button {
+   margin-top: 20px;
+   border: 3px solid yellow;
+   border-radius: 10px;
+   width: 180px;
+   height: 40px;
+   font-weight: bold;
+   font-size: 20px;
+   cursor: pointer;
+   color: black;
+}
